@@ -1,0 +1,13 @@
+CREATE_INDEXES = [
+
+"""
+CREATE CONSTRAINT movie_id IF NOT EXISTS
+FOR (m:Movie) REQUIRE m.movieId IS UNIQUE
+""",
+
+"""
+CREATE CONSTRAINT genre_name IF NOT EXISTS
+FOR (g:Genre) REQUIRE g.name IS UNIQUE
+"""
+
+]
