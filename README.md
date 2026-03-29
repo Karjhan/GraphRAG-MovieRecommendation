@@ -16,6 +16,7 @@ and their genres, thus making a good candidate to a simple example of neo4j know
 
 I had to make an additional script to extract the metadata and another to process it and add metadata to the neo4j database + load descriptions from TMDB, use llama
 embeddings and then add them to the qdrant database.
+![SS-4](./screenshots/SS4.png)
 ## Teck Stack
 
 1. FastAPI - for backend
